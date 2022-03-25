@@ -1,0 +1,98 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  background-position: center;
+  height: 600px;
+  background-image: url(./asset/MAIN\ HEADER.jpg);
+  background-size: cover;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+
+  transition: all 0.5s;
+}
+.header-right li {
+  float: right;
+  margin: 20px;
+}
+.top-wrapper {
+  color: white;
+}
+.header-right li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  font-family: serif;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1 {
+  font-size: 50px;
+  opacity: 0.6;
+}
+.top-wrapper p {
+  opacity: 0.6;
+}
+.main-class {
+  margin: 50px 300px;
+  height: 1500px;
+}
+.kata h1 {
+  font-size: 30px;
+}
+.kata p {
+  font-size: 20px;
+}
+.foto-1 {
+  display: flex;
+  height: 300px;
+}
+._ {
+  display: block;
+  width: 70px;
+  height: 6px;
+  border-radius: 5px;
+  background-color: yellow;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.kata {
+  margin-left: 25px;
+  margin-top: 50px;
+  height: 300px;
+}
+.foto-2 {
+  float: right;
+  border-radius: 10px;
+  height: 250px;
+  width: 200px;
+}
